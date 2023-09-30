@@ -1,7 +1,7 @@
 // Node Server for socket io connections
 
 
-const io = require('socket.io')(8000, {
+const io = require('socket.io')(3000, {
     cors: {
       origin: '*',
     }
