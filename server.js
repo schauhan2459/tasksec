@@ -5,7 +5,7 @@ const User = require("./models/user");
 const Task = require("./models/task");
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
 mongoose.connect(
   "mongodb://canteen:3345@ac-syvaqes-shard-00-00.8f3wqt8.mongodb.net:27017,ac-syvaqes-shard-00-01.8f3wqt8.mongodb.net:27017,ac-syvaqes-shard-00-02.8f3wqt8.mongodb.net:27017/Task-Management?ssl=true&replicaSet=atlas-enxyz5-shard-0&authSource=admin&retryWrites=true&w=majority",
